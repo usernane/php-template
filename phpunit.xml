@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="tests/bootstrap.php">
+    <php>
+    </php>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <!-- Files to include in coverage report -->
+            <file>./src/framework/cron/CronJob.php</file>
+            <!-- Directories to include in coverage report -->
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <!-- Generating coverage report -->
+        <log type="coverage-clover" target="clover.xml"/>
+    </logging>
+    <testsuites>
+        <!-- Test suite is used to group multiple tests together. They are optional. -->
+        <testsuite name="My Tests">
+            <directory>./tests/group1/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

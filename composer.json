@@ -1,0 +1,16 @@
+{
+    "name": "vendor/p-h-p-app",
+    "description": "Description of project.",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "webfiori/jsonx":"*"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"*"
+    }
+}
