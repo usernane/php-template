@@ -17,10 +17,11 @@ function setupProjectRoot() {
 
     if (explode(DIRECTORY_SEPARATOR, $rootDirTrimmed)[0] == 'home') {
         //linux.
-        define('PROJECT_ROOT_DIR', DIRECTORY_SEPARATOR.$rootDirTrimmed.DIRECTORY_SEPARATOR);
+        $root = DIRECTORY_SEPARATOR.$rootDirTrimmed.DIRECTORY_SEPARATOR;
     } else {
-        define('PROJECT_ROOT_DIR', $rootDirTrimmed.DIRECTORY_SEPARATOR);
+        $root = $rootDirTrimmed.DIRECTORY_SEPARATOR;
     }
+    define('PROJECT_ROOT_DIR', $root);
 }
 
 setupProjectRoot();
