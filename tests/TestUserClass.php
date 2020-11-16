@@ -1,5 +1,7 @@
 <?php
 
+namespace tests; 
+
 use PHPUnit\Framework\TestCase;
 
 use User;
@@ -16,7 +18,7 @@ class TestingClass extends TestCase {
     /**
      * @test
      */
-    public function test0() {
+    public function test01() {
         $this->assertTrue(false);
     }
 }
