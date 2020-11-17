@@ -7,7 +7,7 @@ A template project which can be used to create PHP projects. This template is us
 * [`phpunit.xml`](https://github.com/usernane/php-template/phpunit.xml): Configuration file which is used to configure PHPUnit.
 * [`php_cs.php`](https://github.com/usernane/php-template/php_cs.php): Coding standards fixer configuration file. Used to set rules.
 
-In addition to the given files, the root can hold more configuration files. For example, you might use some continuous integration service (such as [Travis CI](travis-ci.com)) or code quality tools (such as [SonarCloud](sonarcloud.io)). In this case, configuration files can be placed at the root.
+In addition to the given files, the root can hold more configuration files. For example, you might use some continuous integration service (such as [Travis CI](https://travis-ci.com)) or code quality tools (such as [SonarCloud](https://sonarcloud.io)). In this case, configuration files can be placed at the root.
 
 ## Project Structure
 
