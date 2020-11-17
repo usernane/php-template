@@ -12,9 +12,11 @@ In addition to the given files, the root can hold more configuration files. For 
 ## Project Structure
 
 The structure that I like to go with is the following:
-* `src` Folder. This folder contains the actual project code. Always kept under source control.
-* `tests` Folder. Contains PHPUnit test classes. Kept under source control but outside the tar archive using `.gitattributes`.
-* `vendor` Folder. Contains the libraries at which the project depends on. Downloaded using composer.
+* `src` Folder. 
+* `tests` Folder.
+* `vendor` Folder.
+
+The folder `src` contains the actual project code at which the developer will write. Always kept under source control. The folder `tests` Contains PHPUnit test classes. Kept under source control but outside the tar archive using `.gitattributes` since tests usually are not needed in stable releases. You will notice that the folder has one file inside it which is `bootstrap.php`. It is basically a file that contains code that will get executed before the actual testing code. The folder `vendor` contains the libraries at which the project depends on. Downloaded using composer.
 
 ## Setup in Apache NetBeans IDE
 
