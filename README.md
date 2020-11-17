@@ -20,6 +20,8 @@ The folder `src` contains the actual project code at which the developer will wr
 
 ## Setup in Apache NetBeans IDE
 
+Note that the steps which are shown here applies to Windows OS. There might be some differences in different OSs.
+
 ### PHP Interpreter
 
 The first step in setting up your IDE for PHP applications development is to specify the location of your interpreter. I recomend that you install the interpreter as part of some AMP stack. AMP stands for "Apache, MySQL & PHP". As for me, I prefer to use a stack which is called [Bitnami WAMP](https://bitnami.com/stack/wamp/installer) (The W means `Windows OS`). For more information on installation, [check here](https://webfiori.com/learn/installation#downloading-wamp-stack).
