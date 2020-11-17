@@ -1,0 +1,9 @@
+# Folders and files which are kept outside source control.
+# You can include your own here.
+
+/nbproject
+/vendor
+/clover.xml
+composer.lock
+*.cache
+*.log
