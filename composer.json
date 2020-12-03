@@ -8,9 +8,13 @@
         }
     ],
     "require": {
-        "webfiori/jsonx":"*"
+        
     },
     "require-dev": {
-        "phpunit/phpunit":"*"
+        
+    },
+    "autoload":{
+        "psr-4":{
+        }
     }
 }
