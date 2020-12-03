@@ -1,0 +1,3 @@
+# Use this file to configure Apache
+# Disable opcache. This might reduce load speed if disabled.
+# php_flag opcache.enable Off
